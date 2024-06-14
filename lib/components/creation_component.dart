@@ -113,7 +113,7 @@ class CreationCompte extends StatelessWidget {
               ),
               ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).pushReplacementNamed('/test');
+                  Navigator.of(context).pushReplacementNamed('/');
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Color.fromARGB(255, 76, 117, 198),
